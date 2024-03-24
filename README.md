@@ -19,3 +19,39 @@ To run Pedalstart locally or deploy it to a server, you'll need the following:
 - PHP (>= 5.6)
 - MySQL server
 - Web browser
+
+## Installation
+
+1. Clone the repository:
+
+Set up your MySQL database. You can do this via command line or a tool like phpMyAdmin.
+
+Configure the database connection in config.php:
+
+php
+Copy code
+<?php
+define('DB_SERVER', 'localhost');
+define('DB_USERNAME', 'your_username');
+define('DB_PASSWORD', 'your_password');
+define('DB_NAME', 'your_database_name');
+$link = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
+if($link === false){
+    die("ERROR: Could not connect. " . mysqli_connect_error());
+}
+?>
+Import the SQL schema from database.sql to set up the necessary tables in your database.
+
+Place the cloned repository in your web server's document root.
+
+Navigate to the landing page in your web browser.
+
+##Usage
+Open your web browser and navigate to the landing page URL.
+Sign up for an account if you're a new user, or log in if you already have an account.
+Once logged in, you'll have access to any additional features or content provided by Pedalstart.
+
+Contributors
+
+Poojitha Y M
+   
