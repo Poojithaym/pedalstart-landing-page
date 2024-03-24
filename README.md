@@ -3,6 +3,7 @@ The Pedalstart Landing Page is a web application designed to facilitate user aut
 
 This README provides basic information about the Pedalstart landing page project.
 
+
 ## Features
 
 - **User Authentication:** Allows users to sign up for an account and log in securely.
