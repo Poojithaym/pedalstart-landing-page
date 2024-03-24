@@ -50,6 +50,8 @@ Navigate to the landing page in your web browser.
 Open your web browser and navigate to the landing page URL.
 Sign up for an account if you're a new user, or log in if you already have an account.
 Once logged in, you'll have access to any additional features or content provided by Pedalstart.
+![pedalstart landingpage](https://github.com/Poojithaym/pedalstart-landing-page/assets/116658536/33979eb2-c459-442f-87b2-3388464e4372)
+
 
 Contributors
 
